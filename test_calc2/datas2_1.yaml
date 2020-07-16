@@ -1,0 +1,69 @@
+add:
+  add1: {"a": 10 , "b": 90,"expect": 100}
+
+  add2: {"a": 0.12 , "b": 0.95,"expect": 1.07}
+
+  add3: {"a": 0.12 , "b": 9,"expect": 9.12}
+
+  add4: {"a": 0 , "b": 0.9,"expect": 0.9}
+
+  add5: {"a": 0.1 , "b": 0,"expect": 0.1}
+
+  add6: {"a": 0 , "b": 0,"expect": 0}
+
+sub:
+  sub1: {"a": 100 , "b": 90,"expect": 10}
+
+  sub2: {"a": 0.9 , "b": 0.1,"expect": 0.8}
+
+  sub3: {"a": 1.1 , "b": 1,"expect": 0.1}
+
+  sub4: {"a": 90 , "b": 100,"expect": -10}
+
+  sub5: {"a": 1.1 , "b": 2.9,"expect": -1.8}
+
+  sub6: {"a": 0.1 , "b": 10,"expect": -9.9}
+
+  isub7: {"a": 9.9 , "b": 9.90,"expect": 0}
+
+  sub8: {"a": 100.00 , "b": 100.0,"expect": 0}
+
+  sub9: {"a": 0 , "b": 0.9,"expect": -0.9}
+
+  sub10: {"a": 200.123 , "b": 0,"expect": 200.123}
+
+  sub11: {"a": 0 , "b": 0,"expect": 0}
+
+mult:
+  mult1: {"a": 100 , "b": 90,"expect": 9000}
+
+  mult2: {"a": 0.9 , "b": 0.1,"expect": 0.09}
+
+  mult3: {"a": 1.12 , "b": 2,"expect": 2.24}
+
+  mult4: {"a": 0 , "b": 100,"expect": 0}
+
+  fmult5: {"a": 12.36 , "b": 0,"expect": 0}
+
+  mult6: {"a": 0 , "b": 0,"expect": 0}
+
+div:
+
+  div1: {"a": 900 , "b": 90,"expect": 10}
+
+  div2: {"a": 100 , "b": 90,"expect": 1.111111111}
+
+  div3: {"a": 0.9 , "b": 0.1,"expect": 9}
+
+  div4: {"a": 1.12 , "b": 2,"expect": 0.56}
+
+  div5: {"a": 0 , "b": 100,"expect": 0}
+
+  div6: {"a": 12.36 , "b": 0,"expect": 0}
+
+  div7: {"a": 0 , "b": 0,"expect": 0}
+
+
+
+
+

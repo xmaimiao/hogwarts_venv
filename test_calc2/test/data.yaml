@@ -1,0 +1,4 @@
+env:
+  base_url: https://baidu.com
+  username: 'test3'
+  password: '888888'
