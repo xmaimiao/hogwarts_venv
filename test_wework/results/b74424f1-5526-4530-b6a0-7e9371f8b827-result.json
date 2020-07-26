@@ -1,0 +1,58 @@
+{
+  "name": "test_delmember[data1]",
+  "status": "passed",
+  "description": "\n        1.打开企业微信，点击 通讯录\n        2.滚动定位到人员xxx，点击人员\n        3.点击右上角设置符号\n        4.点击 编辑成员\n        5.点击 删除成功\n        :return:\n        ",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "00440cef-bf6a-4cd9-b890-0042c64ce723-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'忧郁的猫'"
+    }
+  ],
+  "start": 1595768260387,
+  "stop": 1595768294429,
+  "uuid": "5a689af1-b6e0-4393-8e92-9acfe8b6e89c",
+  "historyId": "00ea2bfe5edda8f1706b6d88c648a40b",
+  "testCaseId": "f4fae4624c3ba4b811eecb38d461e068",
+  "fullName": "test_wework.test_wework_member.TestWeWork#test_delmember",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "test_wework"
+    },
+    {
+      "name": "suite",
+      "value": "test_wework_member"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWeWork"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "39356-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_wework.test_wework_member"
+    }
+  ]
+}

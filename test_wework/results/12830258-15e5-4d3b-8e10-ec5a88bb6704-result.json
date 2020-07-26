@@ -1,0 +1,51 @@
+{
+  "name": "test_addmember2[data1]",
+  "status": "passed",
+  "description": "\n        從“手動添加人員”添加\n        :param self:\n        :return:\n        ",
+  "parameters": [
+    {
+      "name": "data",
+      "value": "{'name': '万岁爷', 'phone': '13876453869'}"
+    }
+  ],
+  "start": 1595768228454,
+  "stop": 1595768247910,
+  "uuid": "ae356596-1905-4860-9a49-03fbe2dd48e1",
+  "historyId": "2e3ee5c0ed788f57efa5b123e58351a2",
+  "testCaseId": "58b6416f74355d6fbed4ca9d8ecd9040",
+  "fullName": "test_wework.test_wework_member.TestWeWork#test_addmember2",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "test_wework"
+    },
+    {
+      "name": "suite",
+      "value": "test_wework_member"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWeWork"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "39356-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_wework.test_wework_member"
+    }
+  ]
+}
