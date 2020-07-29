@@ -1,0 +1,61 @@
+{
+  "name": "test_delcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "AttributeError: 'NoneType' object has no attribute 'person_setting'",
+    "trace": "self = <test_contact.TestContact object at 0x0000015312BB9F28>\n\n    def test_delcontact(self):\n        result =self.main.goto_contactlist().\\\n            search_contact().get_contact()\n        result_before = result[0]\n>       delpage = result[1].\\\n            personal_infor().person_setting().\\\n            contactedit().contactdelpage()\nE       AttributeError: 'NoneType' object has no attribute 'person_setting'\n\ntest_contact.py:62: AttributeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "b7993d30-ac3a-449f-9b5c-ab1ea44e2cdc-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "4a54aa38-0a40-4f2e-9a2a-1ff136965347-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "54aaa444-75c1-4cb4-9383-d8970c75ed80-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1595942311240,
+  "stop": 1595942330459,
+  "uuid": "7d3f94fe-cb2c-444d-8b75-c34d25b9e610",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "57528-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

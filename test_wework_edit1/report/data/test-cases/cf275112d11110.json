@@ -1,0 +1,130 @@
+{
+  "uid": "cf275112d11110",
+  "name": "test_delcontact",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "time": {
+    "start": 1595942311240,
+    "stop": 1595942330459,
+    "duration": 19219
+  },
+  "status": "broken",
+  "statusMessage": "AttributeError: 'NoneType' object has no attribute 'person_setting'",
+  "statusTrace": "self = <test_contact.TestContact object at 0x0000015312BB9F28>\n\n    def test_delcontact(self):\n        result =self.main.goto_contactlist().\\\n            search_contact().get_contact()\n        result_before = result[0]\n>       delpage = result[1].\\\n            personal_infor().person_setting().\\\n            contactedit().contactdelpage()\nE       AttributeError: 'NoneType' object has no attribute 'person_setting'\n\ntest_contact.py:62: AttributeError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_Class__pytest_setup_class",
+      "time": {
+        "start": 1595942295740,
+        "stop": 1595942295740,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "broken",
+    "statusMessage": "AttributeError: 'NoneType' object has no attribute 'person_setting'",
+    "statusTrace": "self = <test_contact.TestContact object at 0x0000015312BB9F28>\n\n    def test_delcontact(self):\n        result =self.main.goto_contactlist().\\\n            search_contact().get_contact()\n        result_before = result[0]\n>       delpage = result[1].\\\n            personal_infor().person_setting().\\\n            contactedit().contactdelpage()\nE       AttributeError: 'NoneType' object has no attribute 'person_setting'\n\ntest_contact.py:62: AttributeError",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "97820c87990efc1a",
+        "name": "log",
+        "source": "97820c87990efc1a.txt",
+        "type": "text/plain",
+        "size": 590
+      },
+      {
+        "uid": "75f9c9c54ea9ed5d",
+        "name": "stdout",
+        "source": "75f9c9c54ea9ed5d.txt",
+        "type": "text/plain",
+        "size": 22
+      },
+      {
+        "uid": "6431597dc6924f9e",
+        "name": "stderr",
+        "source": "6431597dc6924f9e.txt",
+        "type": "text/plain",
+        "size": 401
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": true,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "_Class__pytest_setup_class::0",
+      "time": {
+        "start": 1595942338757,
+        "stop": 1595942338921,
+        "duration": 164
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "57528-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": {
+    "categories": [],
+    "tags": []
+  },
+  "source": "cf275112d11110.json",
+  "parameterValues": []
+}

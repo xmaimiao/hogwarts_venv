@@ -1,0 +1,56 @@
+{
+  "name": "test_listaddcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "selenium.common.exceptions.TimeoutException: Message:",
+    "trace": "self = <test_contact.TestContact object at 0x000001FA8902AFD0>\n\n    def test_listaddcontact(self):\n        name = \"麦苗\"\n        # result = self.main.goto_main().goto_contactlist().add_contact().add_list().weworkadd(name)\n>       result = self.main.goto_contactlist().add_contact().add_list().weworkadd(name)\n\ntest_contact.py:70: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\mainpage.py:15: in goto_contactlist\n    self.webdriver_wait(self.index_ele)\n..\\page\\basepage.py:42: in webdriver_wait\n    WebDriverWait(self.driver, timeout).until(lambda x:x.find_element(*locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"15e2e811-4c7d-4af9-ad6b-4b71634b99a8\")>\nmethod = <function BasePage.webdriver_wait.<locals>.<lambda> at 0x000001FA89D3F048>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nC:\\Python37\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "69936064-3c5b-485f-bb6d-0fa9b422e9e6-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "dc2cf96e-99fe-4bb1-b576-fc84822f7746-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1596022932594,
+  "stop": 1596022954097,
+  "uuid": "56a8f28e-d493-4c3e-8c37-0c2786a83f73",
+  "historyId": "900e515a9ba68e243a572b819a1f6be0",
+  "testCaseId": "db6341bf06211cba6e0e8b090307eb4d",
+  "fullName": "test_contact.TestContact#test_listaddcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "63148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

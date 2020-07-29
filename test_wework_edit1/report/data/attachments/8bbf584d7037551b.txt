@@ -1,0 +1,9 @@
+INFO     root:basepage.py:41 webdriver_wait：('xpath', '//*[@text="通讯录"]'),timeout：20
+INFO     root:basepage.py:26 click
+INFO     root:basepage.py:18 find：('xpath', '//*[@text="通讯录"]')
+INFO     root:basepage.py:34 find_scroll
+INFO     root:basepage.py:26 click
+INFO     root:basepage.py:18 find：('xpath', '//*[@text="从微信/手机通讯录中添加"]')
+INFO     root:basepage.py:34 find_scroll
+INFO     root:basepage.py:41 webdriver_wait：('xpath', "//*[@text='麦苗']/../../../..//*[@text='添加']"),timeout：20
+INFO     root:basepage.py:46 back：5

@@ -1,0 +1,123 @@
+{
+  "uid": "44c5bc9a726791b",
+  "name": "test_delcontact",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "time": {
+    "start": 1595991861061,
+    "stop": 1595991867385,
+    "duration": 6324
+  },
+  "status": "broken",
+  "statusMessage": "NameError: name 'Context' is not defined",
+  "statusTrace": "self = <test_contact.TestContact object at 0x000001BB3CB39E80>\n\n    def test_delcontact(self):\n        name=\"小鱼\"\n        # result =self.main.goto_contactlist().\\\n        #     search_contact().get_contact()\n        # result_before = result[0]\n        # delpage = result[1].\\\n        #     personal_infor().person_setting().\\\n        #     contactedit().contactdelpage()\n        # result_after = delpage.get_contact()[0]\n        # assert len(result_after) + 1 == len(result_before)\n    \n        result_after = self.main.goto_contactlist().\\\n>           search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact(name)\n\ntest_contact.py:70: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_wework_edit1.page.searchpage.SearchPage object at 0x000001BB3C86BEB8>\nname = '小鱼'\n\n    def personal_infor(self,name):\n        # 方法一：\n        # list = self.get_contact()[0]\n        #\n        # if len(list) < 2:\n        #     print(\"没有这个联系人\")\n        #     return\n        # else:\n        #     list[1].click()\n        #     return InformationPage(self.driver)\n        # 方法二：\n        self.find_and_sendkeys(self.name_element, name)\n        sleep(3)\n        elelist=self.driver.find_elements(MobileBy.XPATH, f\"//*[@text='{name}']\")\n        # elelist = self.driver.f(MobileBy.XPATH, f\"//*[@text='{name}']\"))\n>       setattr(Context,\"result_before\",elelist)\nE       NameError: name 'Context' is not defined\n\n..\\page\\searchpage.py:38: NameError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_Class__pytest_setup_class",
+      "time": {
+        "start": 1595991853612,
+        "stop": 1595991853612,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "broken",
+    "statusMessage": "NameError: name 'Context' is not defined",
+    "statusTrace": "self = <test_contact.TestContact object at 0x000001BB3CB39E80>\n\n    def test_delcontact(self):\n        name=\"小鱼\"\n        # result =self.main.goto_contactlist().\\\n        #     search_contact().get_contact()\n        # result_before = result[0]\n        # delpage = result[1].\\\n        #     personal_infor().person_setting().\\\n        #     contactedit().contactdelpage()\n        # result_after = delpage.get_contact()[0]\n        # assert len(result_after) + 1 == len(result_before)\n    \n        result_after = self.main.goto_contactlist().\\\n>           search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact(name)\n\ntest_contact.py:70: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_wework_edit1.page.searchpage.SearchPage object at 0x000001BB3C86BEB8>\nname = '小鱼'\n\n    def personal_infor(self,name):\n        # 方法一：\n        # list = self.get_contact()[0]\n        #\n        # if len(list) < 2:\n        #     print(\"没有这个联系人\")\n        #     return\n        # else:\n        #     list[1].click()\n        #     return InformationPage(self.driver)\n        # 方法二：\n        self.find_and_sendkeys(self.name_element, name)\n        sleep(3)\n        elelist=self.driver.find_elements(MobileBy.XPATH, f\"//*[@text='{name}']\")\n        # elelist = self.driver.f(MobileBy.XPATH, f\"//*[@text='{name}']\"))\n>       setattr(Context,\"result_before\",elelist)\nE       NameError: name 'Context' is not defined\n\n..\\page\\searchpage.py:38: NameError",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "3f99284ee34fbbb4",
+        "name": "log",
+        "source": "3f99284ee34fbbb4.txt",
+        "type": "text/plain",
+        "size": 465
+      },
+      {
+        "uid": "b34d9e28dacad5d8",
+        "name": "stderr",
+        "source": "b34d9e28dacad5d8.txt",
+        "type": "text/plain",
+        "size": 314
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 2,
+    "shouldDisplayMessage": true,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "_Class__pytest_setup_class::0",
+      "time": {
+        "start": 1595991872928,
+        "stop": 1595991873073,
+        "duration": 145
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "56932-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": {
+    "categories": [],
+    "tags": []
+  },
+  "source": "44c5bc9a726791b.json",
+  "parameterValues": []
+}

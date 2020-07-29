@@ -1,0 +1,61 @@
+{
+  "name": "test_delcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "TypeError: 'NoneType' object is not subscriptable",
+    "trace": "self = <test_contact.TestContact object at 0x00000138B1719E80>\n\n    def test_delcontact(self):\n        result =self.main.goto_contactlist().\\\n            search_contact().get_contact()\n        result_before = result[0]\n        delpage = result[1].\\\n            personal_infor().person_setting().\\\n            contactedit().contactdelpage()\n>       result_after = delpage.get_contact()[0]\nE       TypeError: 'NoneType' object is not subscriptable\n\ntest_contact.py:65: TypeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "74fd573e-0155-4fb4-91fa-276ec0ae20d5-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "b94bb8ec-15e9-443e-b863-33af0ed9d708-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "380863f6-b164-4944-8f67-0b74c482e122-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1595942100734,
+  "stop": 1595942134644,
+  "uuid": "641f834e-9772-49ed-b622-11abbecbfa4d",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "53520-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

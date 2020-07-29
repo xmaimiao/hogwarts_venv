@@ -1,0 +1,2 @@
+輸出result_before:2
+输出result_before:None

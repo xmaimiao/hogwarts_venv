@@ -1,0 +1,2 @@
+INFO:root:webdriver_wait：('xpath', '//*[@text="通讯录"]'),timeout：20
+INFO:root:back：5

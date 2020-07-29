@@ -1,0 +1,61 @@
+{
+  "name": "test_delcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "selenium.common.exceptions.TimeoutException: Message:",
+    "trace": "self = <test_contact.TestContact object at 0x000001D3DAE79DD8>\n\n    def test_delcontact(self):\n        # result =self.main.goto_contactlist().\\\n        #     search_contact().get_contact()\n        # result_before = result[0]\n        # delpage = result[1].\\\n        #     personal_infor().person_setting().\\\n        #     contactedit().contactdelpage()\n        # result_after = delpage.get_contact()[0]\n        # assert len(result_after) + 1 == len(result_before)\n    \n>       self.main.goto_contactlist().search_contact()\\\n            .get_contact().personal_infor().\\\n            person_setting().contactedit().\\\n            contactdelpage().get_contact()\n\ntest_contact.py:68: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\infomationpage.py:12: in person_setting\n    self.webdriver_wait(self.index_element)\n..\\page\\basepage.py:40: in webdriver_wait\n    WebDriverWait(self.driver, timeout).until(lambda x:x.find_element(*locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"79589ecf-310c-4690-ae41-dd3cf1118203\")>\nmethod = <function BasePage.webdriver_wait.<locals>.<lambda> at 0x000001D3DBB237B8>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nC:\\Python37\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "ce468101-ac6e-4677-bbf8-2689c596d16c-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "4f08c377-0a86-47c6-8837-4c88c581586b-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "0c1b990f-118b-4623-aea0-e8790bd6f71e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1595944297531,
+  "stop": 1595944326839,
+  "uuid": "90313230-022c-4ec1-9865-79023ce3beda",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "55984-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

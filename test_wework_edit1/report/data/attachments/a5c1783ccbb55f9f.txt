@@ -1,0 +1,18 @@
+INFO:root:webdriver_wait：('xpath', '//*[@text="通讯录"]'),timeout：20
+INFO:root:click
+INFO:root:find：('xpath', '//*[@text="通讯录"]')
+INFO:root:find_scroll
+INFO:root:click
+INFO:root:find：('xpath', "//*[@text='手动输入添加']")
+INFO:root:sendkeys：万岁爷
+INFO:root:find：('id', 'com.tencent.wework:id/awt')
+INFO:root:sendkeys：13876453869
+INFO:root:find：('id', 'com.tencent.wework:id/f1e')
+INFO:root:click
+INFO:root:find：('xpath', "//*[@text='设置部门']")
+INFO:root:click
+INFO:root:find：('id', 'com.tencent.wework:id/g09')
+INFO:root:click
+INFO:root:find：('id', 'com.tencent.wework:id/h9w')
+INFO:root:find：('xpath', "//*[contains(@text,'添加成功')]")
+INFO:root:back：5

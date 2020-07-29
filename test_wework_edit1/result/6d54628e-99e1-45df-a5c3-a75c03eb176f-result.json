@@ -1,0 +1,56 @@
+{
+  "name": "test_delcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "selenium.common.exceptions.TimeoutException: Message:",
+    "trace": "self = <test_contact.TestContact object at 0x000001E072069D68>\n\n    def test_delcontact(self):\n        result =self.main.goto_contactlist().\\\n            search_contact().get_contact()\n>       delpage = self.main.goto_contactlist().\\\n            search_contact().\\\n            personal_infor().person_setting().\\\n            contactedit().contactdelpage()\n\ntest_contact.py:61: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\mainpage.py:15: in goto_contactlist\n    self.webdriver_wait(self.index_ele)\n..\\page\\basepage.py:37: in webdriver_wait\n    WebDriverWait(self.driver, timeout).until(lambda x:x.find_element(*locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"acf0c162-28a2-4669-89bf-48f530d6363d\")>\nmethod = <function BasePage.webdriver_wait.<locals>.<lambda> at 0x000001E072D22730>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nC:\\Python37\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "67a30083-e65c-4a70-87af-273f372e53e4-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "99849e62-5c51-4b79-8278-52963d2c3c9c-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1595941108092,
+  "stop": 1595941135766,
+  "uuid": "f67448f0-908b-4541-89fa-bb71b3a38f35",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "57028-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

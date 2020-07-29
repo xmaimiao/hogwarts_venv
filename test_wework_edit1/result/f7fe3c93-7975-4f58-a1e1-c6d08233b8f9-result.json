@@ -1,0 +1,61 @@
+{
+  "name": "test_delcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "AttributeError: 'NoneType' object has no attribute 'person_setting'",
+    "trace": "self = <test_contact.TestContact object at 0x000001A460935C50>\n\n    def test_delcontact(self):\n        name=\"黃姐。平果\"\n        # result =self.main.goto_contactlist().\\\n        #     search_contact().get_contact()\n        # result_before = result[0]\n        # delpage = result[1].\\\n        #     personal_infor().person_setting().\\\n        #     contactedit().contactdelpage()\n        # result_after = delpage.get_contact()[0]\n        # assert len(result_after) + 1 == len(result_before)\n    \n        self.main.goto_contactlist().\\\n>           search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact(name)\nE       AttributeError: 'NoneType' object has no attribute 'person_setting'\n\ntest_contact.py:70: AttributeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "a39b387a-9a59-4028-86d6-7e2878fe22c9-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "ae533678-5501-4b99-9f07-faf2447ca863-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "e19cad15-34c4-488c-97e4-1923de4eec82-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1595991128967,
+  "stop": 1595991135289,
+  "uuid": "9f5dcac5-2581-40a0-85bc-74911565ba24",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "60472-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

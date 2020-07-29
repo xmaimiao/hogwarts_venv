@@ -1,0 +1,123 @@
+{
+  "uid": "48606d97dc1133c0",
+  "name": "test_listaddcontact",
+  "fullName": "test_contact.TestContact#test_listaddcontact",
+  "historyId": "900e515a9ba68e243a572b819a1f6be0",
+  "time": {
+    "start": 1596021132725,
+    "stop": 1596021132725,
+    "duration": 0
+  },
+  "status": "broken",
+  "statusMessage": "AttributeError: 'App' object has no attribute 'goto_contactlist'",
+  "statusTrace": "self = <test_contact.TestContact object at 0x00000180BB83ABA8>\n\n    def test_listaddcontact(self):\n        name = \"麦苗\"\n>       result = self.main.goto_contactlist().add_contact().add_list().weworkadd(name)\nE       AttributeError: 'App' object has no attribute 'goto_contactlist'\n\ntest_contact.py:69: AttributeError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_Class__pytest_setup_class",
+      "time": {
+        "start": 1596021124644,
+        "stop": 1596021124644,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "broken",
+    "statusMessage": "AttributeError: 'App' object has no attribute 'goto_contactlist'",
+    "statusTrace": "self = <test_contact.TestContact object at 0x00000180BB83ABA8>\n\n    def test_listaddcontact(self):\n        name = \"麦苗\"\n>       result = self.main.goto_contactlist().add_contact().add_list().weworkadd(name)\nE       AttributeError: 'App' object has no attribute 'goto_contactlist'\n\ntest_contact.py:69: AttributeError",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "704fd7183c51bd0d",
+        "name": "log",
+        "source": "704fd7183c51bd0d.txt",
+        "type": "text/plain",
+        "size": 37
+      },
+      {
+        "uid": "90fdcdca99d4ea58",
+        "name": "stderr",
+        "source": "90fdcdca99d4ea58.txt",
+        "type": "text/plain",
+        "size": 19
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 2,
+    "shouldDisplayMessage": true,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "_Class__pytest_setup_class::0",
+      "time": {
+        "start": 1596021140123,
+        "stop": 1596021140315,
+        "duration": 192
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "57940-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": {
+    "categories": [],
+    "tags": []
+  },
+  "source": "48606d97dc1133c0.json",
+  "parameterValues": []
+}

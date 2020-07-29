@@ -1,0 +1,63 @@
+{
+  "name": "test_delcontact[data2]",
+  "status": "broken",
+  "statusDetails": {
+    "message": "AttributeError: 'WebDriver' object has no attribute 'find_eles'",
+    "trace": "self = <test_contact.TestContact object at 0x000001E9DE99CF60>, name = '麦苗'\n\n    @pytest.mark.parametrize(\"name\", deldata, ids=delids)\n    def test_delcontact(self,name):\n        '''\n        验证删除联系人\n        :param name:\n        :return:\n        '''\n        result_after = self.main.goto_contactlist().\\\n>           search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact(name)\n\ntest_contact.py:66: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_wework_edit1.page.del_contact.searchpage.SearchPage object at 0x000001E9DEA70390>\nname = '麦苗'\n\n    def personal_infor(self,name):\n        '''\n        判断是否存在联系人，存在则进入下一步\n        :param name:\n        :return:\n        '''\n        self.find_and_sendkeys(self.name_element, name)\n        sleep(3)\n        # elelist=self.driver.find_elements(MobileBy.XPATH, f\"//*[@text='{name}']\")\n>       elelist = self.driver.find_eles(MobileBy.XPATH, f\"//*[@text='{name}']\")\nE       AttributeError: 'WebDriver' object has no attribute 'find_eles'\n\n..\\page\\del_contact\\searchpage.py:36: AttributeError"
+  },
+  "description": "\n        验证删除联系人\n        :param name:\n        :return:\n        ",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "abb72e42-6987-49ab-8d68-10c5742b4f1e-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "1df8e6ca-c717-4be3-ae81-fa70d5af074a-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'麦苗'"
+    }
+  ],
+  "start": 1596030544091,
+  "stop": 1596030576694,
+  "uuid": "cb6ed91c-d3d4-4952-97b5-fcce7c1fc5c0",
+  "historyId": "c3d83336240444c8cd58fe738d842310",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "53436-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "test_listaddcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "AttributeError: 'App' object has no attribute 'goto_contactlist'",
+    "trace": "self = <test_contact.TestContact object at 0x000001F35333AD30>\n\n    def test_listaddcontact(self):\n        name = \"麦苗\"\n        # result = self.main.goto_main().goto_contactlist().add_contact().add_list().weworkadd(name)\n>       result = self.main.goto_contactlist().add_contact().add_list().weworkadd(name)\nE       AttributeError: 'App' object has no attribute 'goto_contactlist'\n\ntest_contact.py:74: AttributeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "dd0e2363-f434-4139-b531-f229eb364dd5-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "2542a893-6baf-4f10-898b-70c27ac8b42c-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1596025624758,
+  "stop": 1596025624758,
+  "uuid": "9b12333e-7912-473b-b90d-c618b5c882c5",
+  "historyId": "900e515a9ba68e243a572b819a1f6be0",
+  "testCaseId": "db6341bf06211cba6e0e8b090307eb4d",
+  "fullName": "test_contact.TestContact#test_listaddcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "60652-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

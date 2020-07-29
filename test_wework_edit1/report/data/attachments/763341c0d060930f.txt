@@ -1,0 +1,19 @@
+INFO     root:basepage.py:41 webdriver_wait：('xpath', '//*[@text="通讯录"]'),timeout：20
+INFO     root:basepage.py:26 click
+INFO     root:basepage.py:18 find：('xpath', '//*[@text="通讯录"]')
+INFO     root:basepage.py:26 click
+INFO     root:basepage.py:18 find：('id', 'com.tencent.wework:id/h9z')
+INFO     root:basepage.py:30 sendkeys：邢理文
+INFO     root:basepage.py:18 find：('id', 'com.tencent.wework:id/fxc')
+INFO     root:basepage.py:41 webdriver_wait：('id', 'com.tencent.wework:id/h9p'),timeout：20
+INFO     root:basepage.py:26 click
+INFO     root:basepage.py:18 find：('id', 'com.tencent.wework:id/h9p')
+INFO     root:basepage.py:26 click
+INFO     root:basepage.py:18 find：('id', 'com.tencent.wework:id/b2c')
+INFO     root:basepage.py:26 click
+INFO     root:basepage.py:18 find：('id', 'com.tencent.wework:id/e3f')
+INFO     root:basepage.py:26 click
+INFO     root:basepage.py:18 find：('id', 'com.tencent.wework:id/bci')
+INFO     root:basepage.py:30 sendkeys：邢理文
+INFO     root:basepage.py:18 find：('id', 'com.tencent.wework:id/fxc')
+INFO     root:basepage.py:46 back：5

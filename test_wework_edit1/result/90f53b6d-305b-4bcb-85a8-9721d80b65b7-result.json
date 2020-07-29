@@ -1,0 +1,56 @@
+{
+  "name": "test_delcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "AttributeError: 'SearchPage' object has no attribute 'search_contact'",
+    "trace": "self = <test_contact.TestContact object at 0x00000206E9A87048>\n\n    def test_delcontact(self):\n        result =self.main.goto_contactlist().\\\n            search_contact().get_contact()\n        result_before = result[0]\n>       delpage = result[1].\\\n            search_contact().\\\n            personal_infor().person_setting().\\\n            contactedit().contactdelpage()\nE       AttributeError: 'SearchPage' object has no attribute 'search_contact'\n\ntest_contact.py:62: AttributeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "7fd0fdfb-ecf6-4d34-8a72-53ef82461d2a-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "1045a771-08d5-4dc3-9bbf-4e06fe0a551e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1595941853347,
+  "stop": 1595941865840,
+  "uuid": "f77485e7-a628-412e-a052-fcdda81bf6a4",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "58120-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

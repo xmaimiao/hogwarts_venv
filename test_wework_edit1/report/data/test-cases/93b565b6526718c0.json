@@ -1,0 +1,126 @@
+{
+  "uid": "93b565b6526718c0",
+  "name": "test_delcontact[data2]",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "historyId": "c3d83336240444c8cd58fe738d842310",
+  "time": {
+    "start": 1596022411260,
+    "stop": 1596022437507,
+    "duration": 26247
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_Class__pytest_setup_class",
+      "time": {
+        "start": 1596022393967,
+        "stop": 1596022393967,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "be905d60a4d9f921",
+        "name": "log",
+        "source": "be905d60a4d9f921.txt",
+        "type": "text/plain",
+        "size": 988
+      },
+      {
+        "uid": "7791dc5634f790de",
+        "name": "stderr",
+        "source": "7791dc5634f790de.txt",
+        "type": "text/plain",
+        "size": 666
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 2,
+    "shouldDisplayMessage": false,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "_Class__pytest_setup_class::0",
+      "time": {
+        "start": 1596022444459,
+        "stop": 1596022444676,
+        "duration": 217
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "64356-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'麦苗'"
+    }
+  ],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": {
+    "categories": [],
+    "tags": []
+  },
+  "source": "93b565b6526718c0.json",
+  "parameterValues": [
+    "'麦苗'"
+  ]
+}

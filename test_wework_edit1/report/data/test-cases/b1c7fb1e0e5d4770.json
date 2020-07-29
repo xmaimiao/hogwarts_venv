@@ -1,0 +1,133 @@
+{
+  "uid": "b1c7fb1e0e5d4770",
+  "name": "test_delcontact[data2]",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "historyId": "c3d83336240444c8cd58fe738d842310",
+  "time": {
+    "start": 1596030544091,
+    "stop": 1596030576694,
+    "duration": 32603
+  },
+  "description": "\n        验证删除联系人\n        :param name:\n        :return:\n        ",
+  "descriptionHtml": "<pre><code>    验证删除联系人\n    :param name:\n    :return:\n</code></pre>\n",
+  "status": "broken",
+  "statusMessage": "AttributeError: 'WebDriver' object has no attribute 'find_eles'",
+  "statusTrace": "self = <test_contact.TestContact object at 0x000001E9DE99CF60>, name = '麦苗'\n\n    @pytest.mark.parametrize(\"name\", deldata, ids=delids)\n    def test_delcontact(self,name):\n        '''\n        验证删除联系人\n        :param name:\n        :return:\n        '''\n        result_after = self.main.goto_contactlist().\\\n>           search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact(name)\n\ntest_contact.py:66: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_wework_edit1.page.del_contact.searchpage.SearchPage object at 0x000001E9DEA70390>\nname = '麦苗'\n\n    def personal_infor(self,name):\n        '''\n        判断是否存在联系人，存在则进入下一步\n        :param name:\n        :return:\n        '''\n        self.find_and_sendkeys(self.name_element, name)\n        sleep(3)\n        # elelist=self.driver.find_elements(MobileBy.XPATH, f\"//*[@text='{name}']\")\n>       elelist = self.driver.find_eles(MobileBy.XPATH, f\"//*[@text='{name}']\")\nE       AttributeError: 'WebDriver' object has no attribute 'find_eles'\n\n..\\page\\del_contact\\searchpage.py:36: AttributeError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_Class__pytest_setup_class",
+      "time": {
+        "start": 1596030512927,
+        "stop": 1596030512927,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "description": "\n        验证删除联系人\n        :param name:\n        :return:\n        ",
+    "status": "broken",
+    "statusMessage": "AttributeError: 'WebDriver' object has no attribute 'find_eles'",
+    "statusTrace": "self = <test_contact.TestContact object at 0x000001E9DE99CF60>, name = '麦苗'\n\n    @pytest.mark.parametrize(\"name\", deldata, ids=delids)\n    def test_delcontact(self,name):\n        '''\n        验证删除联系人\n        :param name:\n        :return:\n        '''\n        result_after = self.main.goto_contactlist().\\\n>           search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact(name)\n\ntest_contact.py:66: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_wework_edit1.page.del_contact.searchpage.SearchPage object at 0x000001E9DEA70390>\nname = '麦苗'\n\n    def personal_infor(self,name):\n        '''\n        判断是否存在联系人，存在则进入下一步\n        :param name:\n        :return:\n        '''\n        self.find_and_sendkeys(self.name_element, name)\n        sleep(3)\n        # elelist=self.driver.find_elements(MobileBy.XPATH, f\"//*[@text='{name}']\")\n>       elelist = self.driver.find_eles(MobileBy.XPATH, f\"//*[@text='{name}']\")\nE       AttributeError: 'WebDriver' object has no attribute 'find_eles'\n\n..\\page\\del_contact\\searchpage.py:36: AttributeError",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "7386b7227b383823",
+        "name": "log",
+        "source": "7386b7227b383823.txt",
+        "type": "text/plain",
+        "size": 465
+      },
+      {
+        "uid": "dddf72d5eba9e644",
+        "name": "stderr",
+        "source": "dddf72d5eba9e644.txt",
+        "type": "text/plain",
+        "size": 314
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 2,
+    "shouldDisplayMessage": true,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "_Class__pytest_setup_class::0",
+      "time": {
+        "start": 1596030583889,
+        "stop": 1596030585423,
+        "duration": 1534
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "53436-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'麦苗'"
+    }
+  ],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": {
+    "categories": [],
+    "tags": []
+  },
+  "source": "b1c7fb1e0e5d4770.json",
+  "parameterValues": [
+    "'麦苗'"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "test_delcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "TypeError: object of type 'NoneType' has no len()",
+    "trace": "self = <test_contact.TestContact object at 0x0000025811A39C50>\n\n    def test_delcontact(self):\n        name=\"何必问\"\n        # result =self.main.goto_contactlist().\\\n        #     search_contact().get_contact()\n        # result_before = result[0]\n        # delpage = result[1].\\\n        #     personal_infor().person_setting().\\\n        #     contactedit().contactdelpage()\n        # result_after = delpage.get_contact()[0]\n        # assert len(result_after) + 1 == len(result_before)\n    \n        result_after = self.main.goto_contactlist().\\\n            search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact(name)\n        print(f\"输出result_before:{self.app.result_before}\")\n>       assert len(self.app.result_before) - 1 == len(result_after)\nE       TypeError: object of type 'NoneType' has no len()\n\ntest_contact.py:74: TypeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "edd2f547-2595-4dad-a19e-8a1f8687656e-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "35cc1733-8ac7-4fd0-95fa-9a205e116a68-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "76cdef3a-0b1b-415e-aceb-86c142f1a67a-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1595991362383,
+  "stop": 1595991380901,
+  "uuid": "cd61ad40-27b1-4a04-864a-00159811640f",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "25712-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

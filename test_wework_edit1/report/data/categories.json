@@ -1,0 +1,54 @@
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Test defects",
+      "children": [
+        {
+          "name": "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+          "children": [
+            {
+              "name": "test_addcontact[data1]",
+              "uid": "ba2e187d5ff07012",
+              "parentUid": "7a823ebd65a5f17ad39e628108c6e522",
+              "status": "broken",
+              "time": {
+                "start": 1595945065030,
+                "stop": 1595945106854,
+                "duration": 41824
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "{'name': '万岁爷', 'phone': '13876453869'}"
+              ]
+            }
+          ],
+          "uid": "7a823ebd65a5f17ad39e628108c6e522"
+        },
+        {
+          "name": "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.tencent.wework' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'D:\\\\android-sdk-windows\\\\platform-tools\\\\adb.exe -P 5037 -s 127.0.0.1\\:7555 shell am start -W -n com.tencent.wework/.launch.LaunchSplashActivity' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability",
+          "children": [
+            {
+              "name": "test_listaddcontact",
+              "uid": "917411b0e48498a9",
+              "parentUid": "c55a503e882c6b7b92eb7635361d2334",
+              "status": "broken",
+              "time": {
+                "start": 1596027007074,
+                "stop": 1596027007074,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            }
+          ],
+          "uid": "c55a503e882c6b7b92eb7635361d2334"
+        }
+      ],
+      "uid": "bdbf199525818fae7a8651db9eafe741"
+    }
+  ]
+}

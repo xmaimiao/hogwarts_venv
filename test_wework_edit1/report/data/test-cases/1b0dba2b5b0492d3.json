@@ -1,0 +1,123 @@
+{
+  "uid": "1b0dba2b5b0492d3",
+  "name": "test_delcontact",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "time": {
+    "start": 1595942444330,
+    "stop": 1595942471999,
+    "duration": 27669
+  },
+  "status": "failed",
+  "statusMessage": "AssertionError: assert (1 - 1) == 2\n +  where 1 = len([<appium.webdriver.webelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"d9dd4341-a4a2-455a-911a-e459d1c0cd7a\")>])\n +  and   2 = len([<appium.webdriver.webelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"3df80373-eff8-4262-...ebelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"89e20879-75f2-464d-8890-b6bdc7357c9c\")>])",
+  "statusTrace": "self = <test_contact.TestContact object at 0x000002342DABB780>\n\n    def test_delcontact(self):\n        result =self.main.goto_contactlist().\\\n            search_contact().get_contact()\n        result_before = result[0]\n        delpage = result[1].\\\n            personal_infor().person_setting().\\\n            contactedit().contactdelpage()\n        result_after = delpage.get_contact()[0]\n>       assert len(result_after) - 1 == len(result_before)\nE       assert (1 - 1) == 2\nE        +  where 1 = len([<appium.webdriver.webelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"d9dd4341-a4a2-455a-911a-e459d1c0cd7a\")>])\nE        +  and   2 = len([<appium.webdriver.webelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"3df80373-eff8-4262-...ebelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"89e20879-75f2-464d-8890-b6bdc7357c9c\")>])\n\ntest_contact.py:66: AssertionError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_Class__pytest_setup_class",
+      "time": {
+        "start": 1595942436526,
+        "stop": 1595942436526,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "failed",
+    "statusMessage": "AssertionError: assert (1 - 1) == 2\n +  where 1 = len([<appium.webdriver.webelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"d9dd4341-a4a2-455a-911a-e459d1c0cd7a\")>])\n +  and   2 = len([<appium.webdriver.webelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"3df80373-eff8-4262-...ebelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"89e20879-75f2-464d-8890-b6bdc7357c9c\")>])",
+    "statusTrace": "self = <test_contact.TestContact object at 0x000002342DABB780>\n\n    def test_delcontact(self):\n        result =self.main.goto_contactlist().\\\n            search_contact().get_contact()\n        result_before = result[0]\n        delpage = result[1].\\\n            personal_infor().person_setting().\\\n            contactedit().contactdelpage()\n        result_after = delpage.get_contact()[0]\n>       assert len(result_after) - 1 == len(result_before)\nE       assert (1 - 1) == 2\nE        +  where 1 = len([<appium.webdriver.webelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"d9dd4341-a4a2-455a-911a-e459d1c0cd7a\")>])\nE        +  and   2 = len([<appium.webdriver.webelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"3df80373-eff8-4262-...ebelement.WebElement (session=\"5c4787a7-202b-40b0-8500-593bb4f0d626\", element=\"89e20879-75f2-464d-8890-b6bdc7357c9c\")>])\n\ntest_contact.py:66: AssertionError",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "803be4490d160cd5",
+        "name": "log",
+        "source": "803be4490d160cd5.txt",
+        "type": "text/plain",
+        "size": 1235
+      },
+      {
+        "uid": "33e561cdafe356a6",
+        "name": "stderr",
+        "source": "33e561cdafe356a6.txt",
+        "type": "text/plain",
+        "size": 837
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 2,
+    "shouldDisplayMessage": true,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "_Class__pytest_setup_class::0",
+      "time": {
+        "start": 1595942478007,
+        "stop": 1595942478165,
+        "duration": 158
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "54828-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": {
+    "categories": [],
+    "tags": []
+  },
+  "source": "1b0dba2b5b0492d3.json",
+  "parameterValues": []
+}

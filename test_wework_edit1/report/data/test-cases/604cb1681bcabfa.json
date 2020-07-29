@@ -1,0 +1,135 @@
+{
+  "uid": "604cb1681bcabfa",
+  "name": "test_delcontact[data9]",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "historyId": "f9600c927a686f8dc7828ffbf6cde919",
+  "time": {
+    "start": 1596002066649,
+    "stop": 1596002086986,
+    "duration": 20337
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_Class__pytest_setup_class",
+      "time": {
+        "start": 1596001812788,
+        "stop": 1596001812788,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "959796757cd50983",
+        "name": "log",
+        "source": "959796757cd50983.txt",
+        "type": "text/plain",
+        "size": 1107
+      },
+      {
+        "uid": "e1eed1cebc105854",
+        "name": "stdout",
+        "source": "e1eed1cebc105854.txt",
+        "type": "text/plain",
+        "size": 299
+      },
+      {
+        "uid": "a9f1a23572c846ac",
+        "name": "stderr",
+        "source": "a9f1a23572c846ac.txt",
+        "type": "text/plain",
+        "size": 747
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "_Class__pytest_setup_class::0",
+      "time": {
+        "start": 1596002181871,
+        "stop": 1596002182082,
+        "duration": 211
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "61284-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'燕飞'"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "604cb1681bcabfa.json",
+  "parameterValues": [
+    "'燕飞'"
+  ]
+}

@@ -1,0 +1,18 @@
+INFO     root:basepage.py:40 webdriver_wait：('xpath', '//*[@text="通讯录"]'),timeout：20
+INFO     root:basepage.py:25 click
+INFO     root:basepage.py:21 find：('xpath', '//*[@text="通讯录"]')
+INFO     root:basepage.py:33 find_scroll
+INFO     root:basepage.py:25 click
+INFO     root:basepage.py:21 find：('xpath', "//*[@text='手动输入添加']")
+INFO     root:basepage.py:29 sendkeys：万岁爷
+INFO     root:basepage.py:21 find：('id', 'com.tencent.wework:id/awt')
+INFO     root:basepage.py:29 sendkeys：13876453869
+INFO     root:basepage.py:21 find：('id', 'com.tencent.wework:id/f1e')
+INFO     root:basepage.py:25 click
+INFO     root:basepage.py:21 find：('xpath', "//*[@text='设置部门']")
+INFO     root:basepage.py:25 click
+INFO     root:basepage.py:21 find：('id', 'com.tencent.wework:id/g09')
+INFO     root:basepage.py:25 click
+INFO     root:basepage.py:21 find：('id', 'com.tencent.wework:id/h9w')
+INFO     root:basepage.py:21 find：('xpath', "//*[contains(@text,'添加成功')]")
+INFO     root:basepage.py:45 back：5

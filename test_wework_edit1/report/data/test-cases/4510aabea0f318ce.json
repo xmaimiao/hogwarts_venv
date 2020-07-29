@@ -1,0 +1,130 @@
+{
+  "uid": "4510aabea0f318ce",
+  "name": "test_delcontact",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "time": {
+    "start": 1595989006480,
+    "stop": 1595989013293,
+    "duration": 6813
+  },
+  "status": "broken",
+  "statusMessage": "AttributeError: 'NoneType' object has no attribute 'person_setting'",
+  "statusTrace": "self = <test_contact.TestContact object at 0x00000243424C9DA0>\n\n    def test_delcontact(self):\n        name=\"LLL\"\n        # result =self.main.goto_contactlist().\\\n        #     search_contact().get_contact()\n        # result_before = result[0]\n        # delpage = result[1].\\\n        #     personal_infor().person_setting().\\\n        #     contactedit().contactdelpage()\n        # result_after = delpage.get_contact()[0]\n        # assert len(result_after) + 1 == len(result_before)\n    \n        self.main.goto_contactlist().\\\n>           search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact()\nE       AttributeError: 'NoneType' object has no attribute 'person_setting'\n\ntest_contact.py:70: AttributeError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_Class__pytest_setup_class",
+      "time": {
+        "start": 1595988998103,
+        "stop": 1595988998103,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "broken",
+    "statusMessage": "AttributeError: 'NoneType' object has no attribute 'person_setting'",
+    "statusTrace": "self = <test_contact.TestContact object at 0x00000243424C9DA0>\n\n    def test_delcontact(self):\n        name=\"LLL\"\n        # result =self.main.goto_contactlist().\\\n        #     search_contact().get_contact()\n        # result_before = result[0]\n        # delpage = result[1].\\\n        #     personal_infor().person_setting().\\\n        #     contactedit().contactdelpage()\n        # result_after = delpage.get_contact()[0]\n        # assert len(result_after) + 1 == len(result_before)\n    \n        self.main.goto_contactlist().\\\n>           search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact()\nE       AttributeError: 'NoneType' object has no attribute 'person_setting'\n\ntest_contact.py:70: AttributeError",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "f4021d867295d17f",
+        "name": "log",
+        "source": "f4021d867295d17f.txt",
+        "type": "text/plain",
+        "size": 533
+      },
+      {
+        "uid": "bf8da9bc43adae8e",
+        "name": "stdout",
+        "source": "bf8da9bc43adae8e.txt",
+        "type": "text/plain",
+        "size": 22
+      },
+      {
+        "uid": "b5a46c14459165cb",
+        "name": "stderr",
+        "source": "b5a46c14459165cb.txt",
+        "type": "text/plain",
+        "size": 363
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": true,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "_Class__pytest_setup_class::0",
+      "time": {
+        "start": 1595989022803,
+        "stop": 1595989022974,
+        "duration": 171
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "59528-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": {
+    "categories": [],
+    "tags": []
+  },
+  "source": "4510aabea0f318ce.json",
+  "parameterValues": []
+}

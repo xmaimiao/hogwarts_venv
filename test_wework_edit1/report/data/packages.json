@@ -1,0 +1,232 @@
+{
+  "uid": "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name": "packages",
+  "children": [
+    {
+      "name": "test_contact",
+      "children": [
+        {
+          "name": "test_addcontact[data1]",
+          "uid": "ba2e187d5ff07012",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "broken",
+          "time": {
+            "start": 1595945065030,
+            "stop": 1595945106854,
+            "duration": 41824
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "{'name': '万岁爷', 'phone': '13876453869'}"
+          ]
+        },
+        {
+          "name": "test_delcontact",
+          "uid": "6e1ac15ab2aa6712",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1595992303484,
+            "stop": 1595992326296,
+            "duration": 22812
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": []
+        },
+        {
+          "name": "test_delcontact[data1]",
+          "uid": "878871e8ca572e1e",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596001838514,
+            "stop": 1596001875882,
+            "duration": 37368
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'iVan'"
+          ]
+        },
+        {
+          "name": "test_delcontact[data5]",
+          "uid": "115015167f8e51e9",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596001931932,
+            "stop": 1596001955860,
+            "duration": 23928
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'荼茶'"
+          ]
+        },
+        {
+          "name": "test_delcontact[data6]",
+          "uid": "444040161b120431",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596001969923,
+            "stop": 1596001993678,
+            "duration": 23755
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'欣'"
+          ]
+        },
+        {
+          "name": "test_delcontact[data7]",
+          "uid": "757bea98d8c515d9",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596002001034,
+            "stop": 1596002024496,
+            "duration": 23462
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'邢理文'"
+          ]
+        },
+        {
+          "name": "test_delcontact[data8]",
+          "uid": "21ab116db0ebe9ed",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596002034460,
+            "stop": 1596002059397,
+            "duration": 24937
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'寻找'"
+          ]
+        },
+        {
+          "name": "test_delcontact[data9]",
+          "uid": "604cb1681bcabfa",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596002066649,
+            "stop": 1596002086986,
+            "duration": 20337
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'燕飞'"
+          ]
+        },
+        {
+          "name": "test_delcontact[data10]",
+          "uid": "9358fe3a86516c8",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596002093849,
+            "stop": 1596002116690,
+            "duration": 22841
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'张海瞳'"
+          ]
+        },
+        {
+          "name": "test_delcontact[data11]",
+          "uid": "82a4861e878e5ee0",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596002123569,
+            "stop": 1596002147133,
+            "duration": 23564
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'麦苗'"
+          ]
+        },
+        {
+          "name": "test_delcontact[data12]",
+          "uid": "8b014e8dbca6d5cb",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596002153958,
+            "stop": 1596002176218,
+            "duration": 22260
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'黄姐。平果'"
+          ]
+        },
+        {
+          "name": "test_delcontact[data3]",
+          "uid": "496d70c1a3cf1189",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596002291965,
+            "stop": 1596002312460,
+            "duration": 20495
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'Luminous'"
+          ]
+        },
+        {
+          "name": "test_listaddcontact",
+          "uid": "917411b0e48498a9",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "broken",
+          "time": {
+            "start": 1596027007074,
+            "stop": 1596027007074,
+            "duration": 0
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": []
+        },
+        {
+          "name": "test_delcontact[data2]",
+          "uid": "8508bbda919e1b85",
+          "parentUid": "f7d77b6e47342cdd390756179daf8ba9",
+          "status": "passed",
+          "time": {
+            "start": 1596030690548,
+            "stop": 1596030728116,
+            "duration": 37568
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'麦苗'"
+          ]
+        }
+      ],
+      "uid": "f7d77b6e47342cdd390756179daf8ba9"
+    }
+  ]
+}

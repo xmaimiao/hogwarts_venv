@@ -1,0 +1,67 @@
+{
+  "name": "test_delcontact[data3]",
+  "status": "broken",
+  "statusDetails": {
+    "message": "AttributeError: 'NoneType' object has no attribute 'person_setting'",
+    "trace": "self = <test_contact.TestContact object at 0x000001B63FFE0208>\nname = 'Luminous'\n\n    @pytest.mark.parametrize(\"name\", deldata, ids=delids)\n    def test_delcontact(self,name):\n        result_after = self.main.goto_contactlist().\\\n>           search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact(name)\nE       AttributeError: 'NoneType' object has no attribute 'person_setting'\n\ntest_contact.py:62: AttributeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "c37c6df5-3c1b-4e70-b239-53456efd813f-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "67e3ed83-54a0-4521-9fec-034f8f261e51-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "84db7fc4-e138-4d2e-97c0-48c73b725d20-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'Luminous'"
+    }
+  ],
+  "start": 1596001907872,
+  "stop": 1596001921434,
+  "uuid": "8bab47bc-45e2-40e6-b8a0-9395f47f4ce4",
+  "historyId": "8c2d1d8b74ac56c4c81973970c0301a8",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "61284-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

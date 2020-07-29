@@ -1,0 +1,56 @@
+{
+  "name": "test_delcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "AttributeError: 'list' object has no attribute 'click'",
+    "trace": "self = <test_contact.TestContact object at 0x00000202D0B39E10>\n\n    def test_delcontact(self):\n        # result =self.main.goto_contactlist().\\\n        #     search_contact().get_contact()\n        # result_before = result[0]\n        # delpage = result[1].\\\n        #     personal_infor().person_setting().\\\n        #     contactedit().contactdelpage()\n        # result_after = delpage.get_contact()[0]\n        # assert len(result_after) + 1 == len(result_before)\n    \n>       self.main.goto_contactlist().search_contact().get_contact().personal_infor().person_setting().contactedit().contactdelpage().get_contact()\n\ntest_contact.py:68: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_wework_edit1.page.searchpage.SearchPage object at 0x00000202D0853D30>\n\n    def personal_infor(self):\n        # list = self.get_contact()[0]\n        #\n        # if len(list) < 2:\n        #     print(\"没有这个联系人\")\n        #     return\n        # else:\n        #     list[1].click()\n        #     return InformationPage(self.driver)\n        if len(self.result_before) < 2:\n            print(\"没有这个联系人\")\n            return\n        else:\n>           self.result_before.click()\nE           AttributeError: 'list' object has no attribute 'click'\n\n..\\page\\searchpage.py:44: AttributeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "497fb029-55a7-44ba-af5f-e7f030c00a93-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "186f2c36-a585-4ce9-a925-61e00967aa54-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1595943892861,
+  "stop": 1595943899663,
+  "uuid": "7187ce9b-79c7-4a4b-87ce-3a16e8ed1660",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "55932-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

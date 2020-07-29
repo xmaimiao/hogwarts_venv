@@ -1,0 +1,8 @@
+INFO     root:basepage.py:42 webdriver_wait：('xpath', '//*[@text="通讯录"]'),timeout：20
+INFO     root:basepage.py:27 click
+INFO     root:basepage.py:19 find：('xpath', '//*[@text="通讯录"]')
+INFO     root:basepage.py:27 click
+INFO     root:basepage.py:19 find：('id', 'com.tencent.wework:id/h9z')
+INFO     root:basepage.py:31 sendkeys：LLL
+INFO     root:basepage.py:19 find：('id', 'com.tencent.wework:id/fxc')
+INFO     root:basepage.py:47 back：5

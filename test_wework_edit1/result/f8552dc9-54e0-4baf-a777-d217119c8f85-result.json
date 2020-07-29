@@ -1,0 +1,52 @@
+{
+  "name": "test_listaddcontact",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "66da3577-4024-4b42-b7d0-2fa5cc2135f0-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "9b713a58-5dd9-4414-a99f-a8f60f2eb5c6-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1596022232285,
+  "stop": 1596022278126,
+  "uuid": "5ed3e7b7-a2a8-478c-a5de-74244d019449",
+  "historyId": "900e515a9ba68e243a572b819a1f6be0",
+  "testCaseId": "db6341bf06211cba6e0e8b090307eb4d",
+  "fullName": "test_contact.TestContact#test_listaddcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "60264-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

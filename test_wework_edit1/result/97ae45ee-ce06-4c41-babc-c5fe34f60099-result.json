@@ -1,0 +1,61 @@
+{
+  "name": "test_delcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "TypeError: object of type 'NoneType' has no len()",
+    "trace": "self = <test_contact.TestContact object at 0x0000013A221A9320>\n\n    def test_delcontact(self):\n        # result =self.main.goto_contactlist().\\\n        #     search_contact().get_contact()\n        # result_before = result[0]\n        # delpage = result[1].\\\n        #     personal_infor().person_setting().\\\n        #     contactedit().contactdelpage()\n        # result_after = delpage.get_contact()[0]\n        # assert len(result_after) + 1 == len(result_before)\n    \n        self.main.goto_contactlist().search_contact()\\\n            .get_contact().personal_infor().\\\n            person_setting().contactedit().\\\n            contactdelpage().get_contact()\n>       assert len(self.app.result_before) - 1 == len(self.app.result_after)\nE       TypeError: object of type 'NoneType' has no len()\n\ntest_contact.py:72: TypeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "d91888a3-604b-4d57-8d22-e492f6fb3576-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "21e28126-3308-4062-b123-7b2e648035e3-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "9800701f-b20d-4b6e-94cd-5fb7a9725df9-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1595944616084,
+  "stop": 1595944645788,
+  "uuid": "32cd5ec8-88fd-47b1-adf2-158bcb142e1a",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "57932-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

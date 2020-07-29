@@ -1,0 +1,5 @@
+输出num：0
+输出num1：1
+输出result_before：<appium.webdriver.webelement.WebElement (session="dd60f60a-41c6-42fd-8379-c9a48faa7de0", element="68936d24-5a3c-44db-9d6d-64e08ff9d8a3")>
+输出num：0
+输出num1：1

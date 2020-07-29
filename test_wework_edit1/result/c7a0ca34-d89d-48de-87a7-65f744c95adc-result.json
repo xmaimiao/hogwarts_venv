@@ -1,0 +1,63 @@
+{
+  "name": "test_delcontact[data10]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "d3bde920-a661-4997-b259-7cb0bc34e83a-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "485463d4-3a35-4bce-99ee-b614692503a4-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "2c498568-02fd-4f63-93cd-79c82f0f577f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'张海瞳'"
+    }
+  ],
+  "start": 1596002093849,
+  "stop": 1596002116690,
+  "uuid": "d0d178cc-d562-4190-9255-4c7f08cd3fd7",
+  "historyId": "4a1b9aa136853aace64879254ea5298a",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "61284-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "uid": "88b1ba25c75579db",
+  "name": "test_listaddcontact",
+  "fullName": "test_contact.TestContact#test_listaddcontact",
+  "historyId": "900e515a9ba68e243a572b819a1f6be0",
+  "time": {
+    "start": 1596020468219,
+    "stop": 1596020524745,
+    "duration": 56526
+  },
+  "status": "broken",
+  "statusMessage": "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace": "self = <test_contact.TestContact object at 0x00000238617FC8D0>\n\n    def test_listaddcontact(self):\n        name = \"麦苗\"\n>       result = self.main.goto_contactlist().add_contact().add_list().weworkadd(name)\n\ntest_contact.py:68: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\add_contact\\add_contact_list\\contactlistaddpage.py:21: in weworkadd\n    self.webdriver_wait(member_ele)\n..\\page\\basepage.py:42: in webdriver_wait\n    WebDriverWait(self.driver, timeout).until(lambda x:x.find_element(*locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"7f257bac-0c0a-4544-b699-142309f653b2\")>\nmethod = <function BasePage.webdriver_wait.<locals>.<lambda> at 0x0000023861D02048>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nC:\\Python37\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_Class__pytest_setup_class",
+      "time": {
+        "start": 1596020449969,
+        "stop": 1596020449969,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "broken",
+    "statusMessage": "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace": "self = <test_contact.TestContact object at 0x00000238617FC8D0>\n\n    def test_listaddcontact(self):\n        name = \"麦苗\"\n>       result = self.main.goto_contactlist().add_contact().add_list().weworkadd(name)\n\ntest_contact.py:68: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\page\\add_contact\\add_contact_list\\contactlistaddpage.py:21: in weworkadd\n    self.webdriver_wait(member_ele)\n..\\page\\basepage.py:42: in webdriver_wait\n    WebDriverWait(self.driver, timeout).until(lambda x:x.find_element(*locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"7f257bac-0c0a-4544-b699-142309f653b2\")>\nmethod = <function BasePage.webdriver_wait.<locals>.<lambda> at 0x0000023861D02048>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nC:\\Python37\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "8bbf584d7037551b",
+        "name": "log",
+        "source": "8bbf584d7037551b.txt",
+        "type": "text/plain",
+        "size": 576
+      },
+      {
+        "uid": "795125f0cf71f25c",
+        "name": "stderr",
+        "source": "795125f0cf71f25c.txt",
+        "type": "text/plain",
+        "size": 406
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 2,
+    "shouldDisplayMessage": true,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "_Class__pytest_setup_class::0",
+      "time": {
+        "start": 1596020530919,
+        "stop": 1596020531106,
+        "duration": 187
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "60652-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": {
+    "categories": [],
+    "tags": []
+  },
+  "source": "88b1ba25c75579db.json",
+  "parameterValues": []
+}

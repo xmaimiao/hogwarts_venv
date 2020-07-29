@@ -1,0 +1,1 @@
+输出result_before:[<appium.webdriver.webelement.WebElement (session="a8e38451-5722-4563-b208-69b13fd0d570", element="c6d91e41-2a2d-4c75-8528-23fece9b3631")>, <appium.webdriver.webelement.WebElement (session="a8e38451-5722-4563-b208-69b13fd0d570", element="4aa32aa2-0fec-4dd7-beb4-d2cbbe0ea53b")>]

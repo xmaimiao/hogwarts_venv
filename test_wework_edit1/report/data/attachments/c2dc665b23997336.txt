@@ -1,0 +1,17 @@
+INFO:root:webdriver_wait：('xpath', '//*[@text="通讯录"]'),timeout：20
+INFO:root:click
+INFO:root:find：('xpath', '//*[@text="通讯录"]')
+INFO:root:click
+INFO:root:find：('id', 'com.tencent.wework:id/h9z')
+INFO:root:sendkeys：记忆断层
+INFO:root:find：('id', 'com.tencent.wework:id/fxc')
+INFO:root:webdriver_wait：('id', 'com.tencent.wework:id/h9p'),timeout：20
+INFO:root:click
+INFO:root:find：('id', 'com.tencent.wework:id/h9p')
+INFO:root:click
+INFO:root:find：('id', 'com.tencent.wework:id/b2c')
+INFO:root:click
+INFO:root:find：('id', 'com.tencent.wework:id/e3f')
+INFO:root:click
+INFO:root:find：('id', 'com.tencent.wework:id/bci')
+INFO:root:back：5

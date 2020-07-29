@@ -1,0 +1,22 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 29 13:53:54 CST 2020","Wed Jul 29 13:54:19 CST 2020","24937","","test_contact","TestContact","","","test_delcontact[data8]",""
+"passed","Wed Jul 29 13:50:38 CST 2020","Wed Jul 29 13:51:15 CST 2020","37368","","test_contact","TestContact","","","test_delcontact[data1]",""
+"passed","Wed Jul 29 13:53:21 CST 2020","Wed Jul 29 13:53:44 CST 2020","23462","","test_contact","TestContact","","","test_delcontact[data7]",""
+"passed","Wed Jul 29 13:55:53 CST 2020","Wed Jul 29 13:56:16 CST 2020","22260","","test_contact","TestContact","","","test_delcontact[data12]",""
+"passed","Wed Jul 29 13:55:23 CST 2020","Wed Jul 29 13:55:47 CST 2020","23564","","test_contact","TestContact","","","test_delcontact[data11]",""
+"passed","Wed Jul 29 13:52:49 CST 2020","Wed Jul 29 13:53:13 CST 2020","23755","","test_contact","TestContact","","","test_delcontact[data6]",""
+"broken","Wed Jul 29 20:50:07 CST 2020","Wed Jul 29 20:50:07 CST 2020","0","","test_contact","TestContact","","","test_listaddcontact",""
+"passed","Wed Jul 29 21:51:30 CST 2020","Wed Jul 29 21:52:08 CST 2020","37568","","test_contact","TestContact","","","test_delcontact[data2]","
+        验证删除联系人
+        :param name:
+        :return:
+        "
+"passed","Wed Jul 29 13:54:26 CST 2020","Wed Jul 29 13:54:46 CST 2020","20337","","test_contact","TestContact","","","test_delcontact[data9]",""
+"broken","Tue Jul 28 22:04:25 CST 2020","Tue Jul 28 22:05:06 CST 2020","41824","","test_contact","TestContact","","","test_addcontact[data1]","
+        手动添加联系人
+        :return:
+        "
+"passed","Wed Jul 29 13:52:11 CST 2020","Wed Jul 29 13:52:35 CST 2020","23928","","test_contact","TestContact","","","test_delcontact[data5]",""
+"passed","Wed Jul 29 13:54:53 CST 2020","Wed Jul 29 13:55:16 CST 2020","22841","","test_contact","TestContact","","","test_delcontact[data10]",""
+"passed","Wed Jul 29 11:11:43 CST 2020","Wed Jul 29 11:12:06 CST 2020","22812","","test_contact","TestContact","","","test_delcontact",""
+"passed","Wed Jul 29 13:58:11 CST 2020","Wed Jul 29 13:58:32 CST 2020","20495","","test_contact","TestContact","","","test_delcontact[data3]",""

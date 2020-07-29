@@ -1,0 +1,61 @@
+{
+  "name": "test_delcontact",
+  "status": "broken",
+  "statusDetails": {
+    "message": "TypeError: get_contact() missing 1 required positional argument: 'name'",
+    "trace": "self = <test_contact.TestContact object at 0x000001EC1B469E48>\n\n    def test_delcontact(self):\n        name=\"LLL\"\n        # result =self.main.goto_contactlist().\\\n        #     search_contact().get_contact()\n        # result_before = result[0]\n        # delpage = result[1].\\\n        #     personal_infor().person_setting().\\\n        #     contactedit().contactdelpage()\n        # result_after = delpage.get_contact()[0]\n        # assert len(result_after) + 1 == len(result_before)\n    \n        self.main.goto_contactlist().\\\n>           search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact()\nE       TypeError: get_contact() missing 1 required positional argument: 'name'\n\ntest_contact.py:70: TypeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "067d99ad-6a3e-48ec-be28-1616bae60cca-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "17f711fc-b476-4458-9dad-71afc9bb1e20-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "a1a83f09-56d0-44d3-a5c4-927cc0df7255-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1595991039284,
+  "stop": 1595991060566,
+  "uuid": "0677e7fc-137f-4b22-9a6a-9364db26e465",
+  "historyId": "8e762da2be401352d7fdbd6f2e409651",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "57480-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

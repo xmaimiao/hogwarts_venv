@@ -1,0 +1,8 @@
+INFO:root:webdriver_wait：('xpath', '//*[@text="通讯录"]'),timeout：20
+INFO:root:click
+INFO:root:find：('xpath', '//*[@text="通讯录"]')
+INFO:root:click
+INFO:root:find：('id', 'com.tencent.wework:id/h9z')
+INFO:root:sendkeys：多多
+INFO:root:find：('id', 'com.tencent.wework:id/fxc')
+INFO:root:back：5

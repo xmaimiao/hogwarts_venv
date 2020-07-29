@@ -1,0 +1,62 @@
+{
+  "name": "test_delcontact[data2]",
+  "status": "broken",
+  "statusDetails": {
+    "message": "AttributeError: 'MainPage' object has no attribute 'goto_main'",
+    "trace": "self = <test_contact.TestContact object at 0x000001A22965ACC0>, name = '麦苗'\n\n    @pytest.mark.parametrize(\"name\", deldata, ids=delids)\n    def test_delcontact(self,name):\n>       result_after = self.main.goto_main().goto_contactlist().\\\n            search_contact().personal_infor(name).person_setting().\\\n            contactedit().\\\n            contactdelpage().get_contact(name)\nE       AttributeError: 'MainPage' object has no attribute 'goto_main'\n\ntest_contact.py:59: AttributeError"
+  },
+  "attachments": [
+    {
+      "name": "log",
+      "source": "2adfa4ea-006a-40b5-ba7c-a00af8e2b95b-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "a40faa7d-f90d-4da8-ad86-1a3337617cbb-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'麦苗'"
+    }
+  ],
+  "start": 1596023091202,
+  "stop": 1596023091203,
+  "uuid": "662a7dd1-f4d4-4b8d-a615-ad741e6d5545",
+  "historyId": "c3d83336240444c8cd58fe738d842310",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "X8O0ILYDG7L3A0P"
+    },
+    {
+      "name": "thread",
+      "value": "60852-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

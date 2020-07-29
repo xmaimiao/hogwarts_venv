@@ -1,0 +1,298 @@
+{
+  "4a1b9aa136853aace64879254ea5298a": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "9358fe3a86516c8",
+        "status": "passed",
+        "time": {
+          "start": 1596002093849,
+          "stop": 1596002116690,
+          "duration": 22841
+        }
+      }
+    ]
+  },
+  "8e762da2be401352d7fdbd6f2e409651": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "6e1ac15ab2aa6712",
+        "status": "passed",
+        "time": {
+          "start": 1595992303484,
+          "stop": 1595992326296,
+          "duration": 22812
+        }
+      }
+    ]
+  },
+  "535297f914fc48acc7d780faca888d9d": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "878871e8ca572e1e",
+        "status": "passed",
+        "time": {
+          "start": 1596001838514,
+          "stop": 1596001875882,
+          "duration": 37368
+        }
+      }
+    ]
+  },
+  "c3d83336240444c8cd58fe738d842310": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "8508bbda919e1b85",
+        "status": "passed",
+        "time": {
+          "start": 1596030690548,
+          "stop": 1596030728116,
+          "duration": 37568
+        }
+      }
+    ]
+  },
+  "73d3e5b2ba9122eded298ed53605ee58": {
+    "statistic": {
+      "failed": 0,
+      "broken": 1,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "ba2e187d5ff07012",
+        "status": "broken",
+        "statusDetails": "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+        "time": {
+          "start": 1595945065030,
+          "stop": 1595945106854,
+          "duration": 41824
+        }
+      }
+    ]
+  },
+  "2a2a665155ff11e0e4101cf8b61af67e": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "444040161b120431",
+        "status": "passed",
+        "time": {
+          "start": 1596001969923,
+          "stop": 1596001993678,
+          "duration": 23755
+        }
+      }
+    ]
+  },
+  "900e515a9ba68e243a572b819a1f6be0": {
+    "statistic": {
+      "failed": 0,
+      "broken": 1,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "917411b0e48498a9",
+        "status": "broken",
+        "statusDetails": "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.tencent.wework' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'D:\\\\android-sdk-windows\\\\platform-tools\\\\adb.exe -P 5037 -s 127.0.0.1\\:7555 shell am start -W -n com.tencent.wework/.launch.LaunchSplashActivity' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability",
+        "time": {
+          "start": 1596027007074,
+          "stop": 1596027007074,
+          "duration": 0
+        }
+      }
+    ]
+  },
+  "d01004cbc27322171408aa6d53f1c656": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "757bea98d8c515d9",
+        "status": "passed",
+        "time": {
+          "start": 1596002001034,
+          "stop": 1596002024496,
+          "duration": 23462
+        }
+      }
+    ]
+  },
+  "f9600c927a686f8dc7828ffbf6cde919": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "604cb1681bcabfa",
+        "status": "passed",
+        "time": {
+          "start": 1596002066649,
+          "stop": 1596002086986,
+          "duration": 20337
+        }
+      }
+    ]
+  },
+  "521ce5499cf04364cc8c60b67282a806": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "115015167f8e51e9",
+        "status": "passed",
+        "time": {
+          "start": 1596001931932,
+          "stop": 1596001955860,
+          "duration": 23928
+        }
+      }
+    ]
+  },
+  "2edf3122fabdfaefbcff72beaee30e1e": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "21ab116db0ebe9ed",
+        "status": "passed",
+        "time": {
+          "start": 1596002034460,
+          "stop": 1596002059397,
+          "duration": 24937
+        }
+      }
+    ]
+  },
+  "7911fe9b35ae2baa15285f58f9d09f07": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "82a4861e878e5ee0",
+        "status": "passed",
+        "time": {
+          "start": 1596002123569,
+          "stop": 1596002147133,
+          "duration": 23564
+        }
+      }
+    ]
+  },
+  "a0f6bf5d6fadfe63960396eba43692dd": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "8b014e8dbca6d5cb",
+        "status": "passed",
+        "time": {
+          "start": 1596002153958,
+          "stop": 1596002176218,
+          "duration": 22260
+        }
+      }
+    ]
+  },
+  "8c2d1d8b74ac56c4c81973970c0301a8": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "496d70c1a3cf1189",
+        "status": "passed",
+        "time": {
+          "start": 1596002291965,
+          "stop": 1596002312460,
+          "duration": 20495
+        }
+      }
+    ]
+  }
+}
